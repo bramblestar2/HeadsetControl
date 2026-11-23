@@ -83,6 +83,7 @@
 
 // Razer devices
 #include "devices/razer_blackshark_v2_pro_ps.hpp"
+#include "devices/razer_blackshark_v2_pro_2023.hpp"
 
 // Test device
 #include "devices/headsetcontrol_test.hpp"
@@ -208,6 +209,7 @@ void DeviceRegistry::initialize()
 
         // Razer devices
         registerDevice(std::make_unique<RazerBlackSharkV2ProPS>());
+        registerDevice(std::make_unique<RazerBlackSharkV2Pro2023>());
 
         // Test device
         registerDevice(std::make_unique<HeadsetControlTest>());

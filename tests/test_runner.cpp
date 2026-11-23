@@ -34,6 +34,7 @@ void runAllSennheiserGSP370Tests();
 void runAllEposH3ProHybridTests();
 void runAllCorsairVirtuosoTests();
 void runAllRazerBlackSharkV2ProPSTests();
+void runAllRazerBlackSharkV2Pro2023Tests();
 void runAllMchoseTests();
 void runAllFifineTests();
 }
@@ -87,6 +88,7 @@ int main()
         headsetcontrol::testing::runAllEposH3ProHybridTests();
         headsetcontrol::testing::runAllCorsairVirtuosoTests();
         headsetcontrol::testing::runAllRazerBlackSharkV2ProPSTests();
+        headsetcontrol::testing::runAllRazerBlackSharkV2Pro2023Tests();
         headsetcontrol::testing::runAllMchoseTests();
         headsetcontrol::testing::runAllFifineTests();
 
